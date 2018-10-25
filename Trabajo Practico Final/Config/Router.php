@@ -3,7 +3,8 @@
     use Config\Request as Request;
 
     class Router{
-
+       
+        /*redirreciona a la pagina de la peticion (request) */
         public static function Route(Request $request){
 
             $controllerName = $request->getcontroller() . 'Controller'; // Controller es por el nombre de la controladora EJ ArtistController
