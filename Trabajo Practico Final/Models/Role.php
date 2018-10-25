@@ -1,8 +1,8 @@
 <?php namespace Models;
 
-class Role{
+class Role{ // Rol.
 	
-	private $idRole;
+	private $idRole; // 0 - 1 - 2 .
 	private $name; // Administrador - cliente - empleado.
 
 	public function__construct ($idRole,$name){
