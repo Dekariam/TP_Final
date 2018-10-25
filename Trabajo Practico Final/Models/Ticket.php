@@ -4,12 +4,10 @@ class Ticket{
 
 	private $number;
 	private $qr;
-	private $purchaseLine;
 
-	public function__construct($number,$qr,$purchaseLine){
+	public function__construct($number,$qr){
 		$this->number = $number;
 		$this->qr = $qr;
-		$this->purchaseLine = $purchaseLine;
 	}
 
 	public function getNumber(){
@@ -19,12 +17,7 @@ class Ticket{
 	public function getQr(){
 		return $this->qr;
 	}
-
-	public function getPurchaseLine(){
-		return $this->purchaseLine;
-	}
-
-
+	
 }
 
  ?>
