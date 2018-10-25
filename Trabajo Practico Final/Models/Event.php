@@ -4,7 +4,7 @@ class Event {
 
 	private $idEvent;
 	private $title;
-	private $category; // Objeto de la clase Category.
+	private $category; // Objeto de la clase Category (recital,boxeo,obra teatral,etc).
 	private $calendarList[]; // Lista de la clase Calendar, con su artista/banda, fecha/horario, lugar.
 
 	public function__construct($idEvent,$title,$category,$calendarList[]){
