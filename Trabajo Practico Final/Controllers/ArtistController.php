@@ -1,5 +1,7 @@
 <?php namespace Controllers;
 
+// agregados.
+
 class ArtistController{
 
 	public function__construct(){}
