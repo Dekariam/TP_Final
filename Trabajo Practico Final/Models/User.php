@@ -1,6 +1,6 @@
 <?php namespace Models;
 
-class User{
+class User{ // Usuario
 	
 	private $account;  // es unica y funciona como la id, es el email
 	private $password;
