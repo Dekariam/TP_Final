@@ -7,7 +7,7 @@ class Artist{
 	
 	public function__construct ($artistName, $idArtist){
 		$this->artistName = $artistName;
-		$this->idArtist = %idArtist;
+		$this->idArtist = $idArtist;
 	}
 
 	public function getArtistName (){
