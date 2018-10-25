@@ -2,16 +2,16 @@
 
 class User{ // Usuario
 	
-	private $account;  // es unica y funciona como la id, es el email
-	private $password;
-	private $role;  // la clase role
-	private $firstName;
-	private $lastName;
-	private $phone;
-	private $adress;
-	private $docType;
-	private $docNumber;
-	private $purchase[];
+	private $account;  // Sirve como Primary keyes ya que es unica y funciona como la id, es el email.
+	private $password; // Contraseña del usuario.
+	private $role;  // Rol que cumple ese usuario (administrador-cliente) viene de la clase Role.
+	private $firstName; // Nombre.
+	private $lastName; // Apellido.
+	private $phone; // Telefono.
+	private $adress; // Direcccion.
+	private $docType; // Tipo de documento.
+	private $docNumber; // Numero de documento.
+	private $purchase[]; // Compra que viene de la clase Purchase.
 
 	public function__construct($account,$password,$role,$firstName,$lastName,$phone,$adress,$docType,$docNumber,$purchase[]){
 		
