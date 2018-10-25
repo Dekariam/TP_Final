@@ -1,12 +1,12 @@
 <?php namespace Models
 
-class EventSeat { // plaza de evento
+class EventSeat { // Plaza del evento.
 	
-	private $idEventSeat;
-	private $quantityAvailable; // cantidad disponible
-	private $reserved; // remanente / reservado
-	private $price; // precio
-	private $seatType; // objeto tipo de plaza
+	private $idEventSeat; // Id de la plaza del evento.
+	private $quantityAvailable; // Cantidad disponible.
+	private $reserved; // Remanente/reservado.
+	private $price; // Precio.
+	private $seatType; //Se guarda el nombre e id del tipo de plaza en un objeto de tipo SeatType;
 
 	public function__construct ($idEventSeat,$quantityAvailable,$reserved,$price,$seatType){
 		$this->idEventSeat = $idEventSeat;
