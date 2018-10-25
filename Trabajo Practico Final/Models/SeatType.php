@@ -1,10 +1,10 @@
 <?php namespace Models;
 
-class SeatType{
+class SeatType{ // Clase con el nombre e id del Tipo de asiento.
 
 	private $idSeatType;
 	private $name;
-
+	
 	public function__construct($idSeatType,$name){
 		$this->idSeatType = $idSeatType;
 		$this->name = $name;
