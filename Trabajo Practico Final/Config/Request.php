@@ -7,11 +7,14 @@
         private $parameters = array();
         
         public function __construct(){
-
+            
+            /*  usa el .htaccess para poder tomar la url como metodo de petición. (Nose como)*/
             $url = filter_input(INPUT_GET, 'url', FILTER_SANITIZE_URL);
-
+            
+            /*convierte la url en un array separadondo por /  */
             $urlArray = explode("/", $url);
-         
+            
+            /* elimina datos vacios del arreglo*/
             $urlArray = array_filter($urlArray);
 
             if(empty($urlArray))
