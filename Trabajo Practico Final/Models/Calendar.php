@@ -1,12 +1,14 @@
 <?php namespace Models
 
+/* Esta clase funciona como una sola fecha, en la que hay un artista, con su lugar del evento, y su tipo de plaza. */
+	
 class Calendar{
 
-	private $idCalendar; // id 
-	private $artist; // datos del artista o de un conjunto de artistas
-	private $date;  // las fechas de evento de ese artista o del conjunto de artistas
-	private $eventPlace; // objeto lugar_evento Ej: Cancha de futbol "monumental";
-	private $eventSeat[];   // objeto plaza_evento Ej: platea; 1 por cada tipo de plaza
+	private $idCalendar; // id del calendario. 
+	private $artist; // Datos del artista o de una banda musical.
+	private $date;  // La fecha y horario de ese artista en el evento.
+	private $eventPlace; // Objeto lugar_evento Ej: Cancha de futbol "Monumental".
+	private $eventSeat[];   // Objeto plaza_evento Ej: "Platea".
 	
 	public function__construct ($idCalendar,$artist,$date,$eventPlace,$eventSeat[]){ 
 			$this->idCalendar = $idCalendar;
@@ -15,7 +17,7 @@ class Calendar{
 			$this->eventPlace = $eventPlace;
 			$this->eventSeat = $eventSeat;
 	}
-
+	
 	public function getIdCalendar (){
 		return $this->idCalendar;
 	}
