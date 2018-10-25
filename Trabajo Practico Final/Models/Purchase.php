@@ -1,16 +1,16 @@
 <?php namespace Models;
 
-class Purchase{ // compra
+class Purchase{ // Compra.
 
-	private $idPurchase;
-	private $date;
-	private $purchaseLine[];
-	private $totalPrice;
+	private $idPurchase; // Id de compra.
+	private $date; // Fecha de la compra.
+	private $purchaseLines[]; // Lineas de compra (Carrito de compra). 
+	private $totalPrice; // Total de la compra.
 
-	public function__construct ($idPurchase,$date,$purchaseLine[],$totalPrice){ 
+	public function__construct ($idPurchase,$date,$purchaseLines[],$totalPrice){ 
 		$this->idPurchase;
 		$this->date = $date;
-		$this->purchaseLine = $purchaseLine;
+		$this->purchaseLines = $purchaseLines;
 		$this->totalPrice = $totalPrice;
 	}
 
@@ -22,14 +22,22 @@ class Purchase{ // compra
 		return $this->date;
 	}
 
-	public function getPurchaseLine (){
-		return $this->purchaseLine;
+	public function getPurchaseLines (){
+		return $this->purchaseLines;
 	}
 	
 	public function getTotalPrice(){
 		return $this->totalPrice;
 	}
-
+	
+	public function setPurchaseLines ($purchaseLines[]){ // Actualizar el carrito de compra, en caso de agregar o quitar un prodcuto.
+		$this->purchaseLines = $purchaseLines;
+	}
+	
+	public function setTotalPrice ($totalPrice){ // Actualizar el precio total de la compra.
+		$this->totalPrice = $totalPrice; 
+	}
+	
 }
 
 ?>
