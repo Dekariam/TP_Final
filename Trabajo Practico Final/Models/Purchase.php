@@ -30,7 +30,7 @@ class Purchase{ // Compra.
 		return $this->totalPrice;
 	}
 	
-	public function setPurchaseLines ($purchaseLines[]){ // Actualizar el carrito de compra, en caso de agregar o quitar un prodcuto.
+	public function setPurchaseLines ($purchaseLines[]){ // Actualizar el carrito de compra, en caso de agregar o quitar un producto.
 		$this->purchaseLines = $purchaseLines;
 	}
 	
