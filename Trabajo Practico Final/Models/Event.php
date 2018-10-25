@@ -2,8 +2,8 @@
 
 class Event {
 
-	private $idEvent;
-	private $title;
+	private $idEvent; // id de ese evento.
+	private $title; // Nombre del evento.
 	private $category; // Objeto de la clase Category (recital,boxeo,obra teatral,etc).
 	private $calendarList[]; // Lista de la clase Calendar, con su artista/banda, fecha/horario, lugar.
 
