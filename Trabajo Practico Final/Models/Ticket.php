@@ -2,9 +2,11 @@
 
 class Ticket{
 
+	/* se puede agregar mas detalles al ticket/entrada como atributo */
+	
 	private $number;
 	private $qr;
-
+	
 	public function__construct($number,$qr){
 		$this->number = $number;
 		$this->qr = $qr;
@@ -17,6 +19,7 @@ class Ticket{
 	public function getQr(){
 		return $this->qr;
 	}
+	
 	
 }
 
