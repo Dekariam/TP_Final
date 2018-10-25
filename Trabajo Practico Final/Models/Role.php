@@ -2,9 +2,9 @@
 
 class Role{ // Rol.
 	
-	private $idRole; // 0 - 1 - 2 .
-	private $name; // Administrador - cliente - empleado.
-
+	private $idRole; // 0 - 1 .
+	private $name; // Administrador - Cliente .
+	
 	public function__construct ($idRole,$name){
 		$this->idRole = $idRole;
 		$this->name = $name;
