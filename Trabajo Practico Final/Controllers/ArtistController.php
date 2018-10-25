@@ -1,11 +1,11 @@
 <?php namespace Controllers;
 
-// agregados.
-
 class ArtistController{
 
 	public function__construct(){}
 
+	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
+	
 	public function deleteArtist($id){ // elimina un artista a la base de datos.
 		// se llama al eliminar artista de dao para que lo elimine de la base de datos.
 	}
