@@ -2,20 +2,20 @@
 
 class Artist{
 
-	private $artistName;
 	private $idArtist;
-	
-	public function__construct ($artistName, $idArtist){
-		$this->artistName = $artistName;
-		$this->idArtist = $idArtist;
-	}
+	private $artistName;
 
+	public function__construct ($idArtist,$artistName){
+		$this->idArtist = $idArtist;
+		$this->artistName = $artistName;
+	}
+	
+	public function getIdArtist(){
+		return $this->idArtist;
+	}
+	
 	public function getArtistName (){
 		return $this->artistName;
-	}
-	
-	public function getIdArtist (){
-		return $this->idArtist;
 	}
 
 }
