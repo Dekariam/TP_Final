@@ -32,7 +32,7 @@ class PurchaseLine{
 	}
 	
 	public function getTickets (){
-		return $this->tickets[];
+		return $this->tickets;
 	}
 
 	public function getPrice(){
