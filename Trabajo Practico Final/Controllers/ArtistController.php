@@ -11,7 +11,7 @@ class ArtistController{
 		// se llama al agregar artista de dao para que lo ingrese en la base de datos.
 	}
 	
-	public function modificarArtistName($idArtist,$nameArtist){
+	public function modifyArtistName($idArtist,$nameArtist){
 		// se llama a la funcion de dao que modifica el nombre del artista por su ID.
 	}
 
