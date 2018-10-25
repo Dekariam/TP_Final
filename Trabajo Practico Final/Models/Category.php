@@ -2,24 +2,24 @@
 
 class Category{
 	
-	private $description; // Toma el valor de un string como: Obra teatral, concierto, boxeo, etc.
+	private $nameCategory; // Toma el valor de un string como: Obra teatral, concierto, boxeo, etc.
 	private $idCategory; // Id de la de Categoria.
 
-	public function__construct ($description,$idCategory){
-		$this->description=$description;
+	public function__construct ($nameCategory,$idCategory){
+		$this->nameCategory=$nameCategory;
 		$this->idCategory=$idCategory;
 	}	
  	
- 	public function getDescription(){
- 		return $this->description;
+ 	public function getNameCategory(){
+ 		return $this->nameCategory;
  	}
  	
  	public function getIdCategory(){
  		return $this->idCategory;
  	}
 
- 	public function setDescription($newDescription){  // Uso en casos de error a la hora de escribir el nombre de la categoria.
-		$this->description=$newDescription;
+ 	public function setNameCategory($newNameCategory){  // Uso en casos de error a la hora de escribir el nombre de la categoria.
+		$this->nameCategory=$newNameCategory;
  	}
 }
 
