@@ -4,14 +4,14 @@ class ArtistController{
 
 	public function__construct(){}
 
-	public function deleteArtist($artist){ // elimina un artista a la base de datos.
+	public function deleteArtist($id){ // elimina un artista a la base de datos.
 		// se llama al eliminar artista de dao para que lo elimine de la base de datos.
 	}
 	public function updateArtist($artist){ // agregar un artista a la base de datos.
 		// se llama al agregar artista de dao para que lo ingrese en la base de datos.
 	}
 	
-	public function modificarArtist($idArtist,$nameArtist){
+	public function modificarArtistName($idArtist,$nameArtist){
 		// se llama a la funcion de dao que modifica el nombre del artista por su ID.
 	}
 
