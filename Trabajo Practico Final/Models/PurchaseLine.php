@@ -4,8 +4,8 @@ class PurchaseLine{
 
 	private $idPurchaseLine;
 	private $amount;  // Cantidad.
-	private $price; // precio total.
-	private $eventSeat; // plaza evento.
+	private $price; // Precio total.
+	private $eventSeat; // Plaza evento.
 	
 	public function__construct($idPurchaseLine,$amount,$price,$eventSeat){
 		$this->idPurchaseLine = $idPurchaseLine;
