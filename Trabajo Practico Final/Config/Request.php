@@ -17,16 +17,25 @@
             /* elimina datos vacios del arreglo*/
             $urlArray = array_filter($urlArray);
 
+            /*
+              controladora por defecto si el arreglo esta vacío
+              sino, llama a la controladora del primer elemento del arreglo.
+             */
             if(empty($urlArray))
                 $this->controller = 'Home';            
             else
                 $this->controller = ucwords(array_shift($urlArray));
-
+            
+            /*
+             método por defecto si el arreglo esta vacío
+             sino, llama al método del primer elemento.
+             */
             if(empty($urlArray))
                 $this->method = 'index';
             else
                 $this->method = array_shift($urlArray);
-
+             
+            /*guardo el metodo que llega por peticion en una variable*/
             $methodRequest = $this->getMethodRequest();
             
             if($methodRequest == 'GET'){
