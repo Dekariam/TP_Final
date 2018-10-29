@@ -1,3 +1,5 @@
+https://github.com/Alekano/BeerGhost
+
 - Seguir con la controladora -> metodos vacios. nos faltan los constructores y el metodo index que seria el que es por defecto si
 en la url no hay ningun metodo, todas las controladoras tienen que tener un metodo index.
 
