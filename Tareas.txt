@@ -1,4 +1,5 @@
-- Seguir con la controladora -> metodos vacios. nos faltan los constructores y el metodo index que seria el que es por defecto si en la url no hay ningun metodo, todas las controladoras tienen que tener un metodo index.
+- Seguir con la controladora -> metodos vacios. nos faltan los constructores y el metodo index que seria el que es por defecto si
+en la url no hay ningun metodo, todas las controladoras tienen que tener un metodo index.
 
 - Hacer los daos completos // uno por lista en session y otro el de la base de datos que llame a la 
 misma interfaz , para simplemente cambiar el include/use en la controladora.
