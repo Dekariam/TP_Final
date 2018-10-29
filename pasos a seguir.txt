@@ -1,0 +1,8 @@
+- Seguir con la controladora -> metodos vacios.
+
+- Hacer los daos completos // uno por lista en session y otro el de la base de datos que llame a la 
+misma interfaz , para simplemente cambiar el include/use en la controladora.
+
+- La base de datos la tenemos que hacer nosotros // aparte
+
+- vista -> para probar las controladoras , los router , los request // html con formulario o el template de la pagina 
