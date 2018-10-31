@@ -11,7 +11,7 @@ class PurchaseController{
 	}
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
-	public function deletePurchase($id){ // elimina de la base de datos.
+	public function deletePurchase($idPurchase){ // elimina de la base de datos.
 		// se llama al eliminar de dao para que lo elimine de la base de datos.
 	}
 	public function addPurchase($purchase){ // agregar a la base de datos.
