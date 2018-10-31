@@ -14,7 +14,7 @@ class EventSeatController{
 	public function deleteEventSeat($id){ // elimina de la base de datos.
 		// se llama al eliminar de dao para que lo elimine de la base de datos.
 	}
-	public function addEventSeat($EventSeat){ // agregar a la base de datos.
+	public function addEventSeat($eventSeat){ // agregar a la base de datos.
 		// se llama al agregar de dao para que lo ingrese en la base de datos.
 	}
 	
