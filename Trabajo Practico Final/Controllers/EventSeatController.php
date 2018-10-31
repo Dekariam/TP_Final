@@ -11,7 +11,7 @@ class EventSeatController{
 	}
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
-	public function deleteEventSeat($id){ // elimina de la base de datos.
+	public function deleteEventSeat($idEventSeat){ // elimina de la base de datos.
 		// se llama al eliminar de dao para que lo elimine de la base de datos.
 	}
 	public function addEventSeat($eventSeat){ // agregar a la base de datos.
