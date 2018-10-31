@@ -1,5 +1,7 @@
 <?php namespace Controllers;
 
+use Daos\SeatTypeDaoList as SeatTypeDao;
+
 class SeatTypeController{
 	
 	private $seatType
@@ -9,6 +11,12 @@ class SeatTypeController{
 		// getInstance
 		//$this->seatType=SeatTypeDao::getInstance();
 	}
+	
+	public function index(){ // Metodo que se llama por defecto cuando no viene en la url, y llama a la vista necesaria (puede
+				// inicializar algunos datos tambien)
+		
+	}
+	
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
 	public function deleteSeatType($idSeatType){ // elimina de la base de datos.
