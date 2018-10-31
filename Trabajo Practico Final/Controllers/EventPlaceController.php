@@ -11,7 +11,7 @@ class EventPlaceController{
 	}
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
-	public function deleteEventPlace($id){ // elimina de la base de datos.
+	public function deleteEventPlace($idEventPlace){ // elimina de la base de datos.
 		// se llama al eliminar de dao para que lo elimine de la base de datos.
 	}
 	public function addEventPlace($eventPlace){ // agregar a la base de datos.
