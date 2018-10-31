@@ -14,6 +14,7 @@ class ArtistController{
 	public function deleteArtist($idArtist){ // elimina un artista a la base de datos.
 		// se llama al eliminar artista de dao para que lo elimine de la base de datos.
 	}
+	// ver si hay que enviar todos los datos por parametro o el objeto entero
 	public function addArtist($artist){ // agregar un artista a la base de datos.
 		// se llama al agregar artista de dao para que lo ingrese en la base de datos.
 	}
