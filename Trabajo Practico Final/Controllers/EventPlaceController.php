@@ -1,5 +1,7 @@
 <?php namespace Controllers;
 
+use Daos\EventPlaceDaoList as EventPlaceDao; 
+
 class EventPlaceController{
 	
 	private $eventPlace
@@ -9,6 +11,12 @@ class EventPlaceController{
 		// getInstance
 		//$this->eventPlace=EventPlaceDao::getInstance();
 	}
+	
+	public function index(){ // Metodo que se llama por defecto cuando no viene en la url, y llama a la vista necesaria (puede
+				// inicializar algunos datos tambien)
+		
+	}
+	
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
 	public function deleteEventPlace($idEventPlace){ // elimina de la base de datos.
