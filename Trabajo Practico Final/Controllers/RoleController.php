@@ -15,7 +15,7 @@ class RoleController{
 		$this->role->add($newRole);
 	}
 	
-	public function deleteRole($id){ // elimina de la base de datos.
+	public function deleteRole($idRole){ // elimina de la base de datos.
 		// se llama al eliminar de dao para que lo elimine de la base de datos.
 	}
 	
