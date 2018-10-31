@@ -10,7 +10,7 @@ class CategoryController{
 		//$this->category=CategoryDao::getInstance();
 	}
 
-	// agregar una nueva categoria 
+	// ver si hay que enviar todos los datos por parametro o el objeto entero
 	public function addCategory ($idDescription,$description){
 		$newCategory = new Category($idDescription,$description);
 		$this->category->add($newCategory);
