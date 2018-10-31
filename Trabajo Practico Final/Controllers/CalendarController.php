@@ -1,5 +1,8 @@
 <?php namespace Controllers;
 //llamar a todos los use, e implementar interfaz probablemente
+
+use Daos\CalendarDaoList as CalendarDao;
+
 class CalendarController{
 	
 	private $calendar
@@ -8,6 +11,11 @@ class CalendarController{
 		// Tenemos que hacer la base de datos para levantar la instancia, y que hereden de singleton para poder usar el
 		// getInstance
 		//$this->calendar=CalendarDao::getInstance();
+	}
+	
+	public function index(){ // Metodo que se llama por defecto cuando no viene en la url, y llama a la vista necesaria (puede
+				// inicializar algunos datos tambien)
+		
 	}
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
