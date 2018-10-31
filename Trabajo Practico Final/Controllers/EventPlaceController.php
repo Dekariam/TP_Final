@@ -27,7 +27,6 @@ class EventPlaceController{
 		$eventPlace = // si lo encuentra devuelve el objeto entero sino null.
 	}
 	
-} 
 	
 } 
 
