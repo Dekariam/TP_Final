@@ -15,14 +15,14 @@ class EventController{
 	public function deleteEvent($id){ // elimina de la base de datos.
 		// se llama al eliminar de dao para que lo elimine de la base de datos.
 	}
-	public function addEvent($calendar){ // agregar a la base de datos.
+	public function addEvent($event){ // agregar a la base de datos.
 		// se llama al agregar de dao para que lo ingrese en la base de datos.
 	}
 	
-	public function modifyEvent($idCalendar){
+	public function modifyEvent($idEvent){
 		// se llama a la funcion de dao que modifica por su ID.
 	}
-	public function returnEvent($idCalendar){ // buscar por ID.
+	public function returnEvent($idEvent){ // buscar por ID.
 		$eventList = //de la base de datos (vienen de DAO).
 		//se busca ese objeto por el nombre.
 		$event = // si lo encuentra devuelve el objeto entero sino null.
