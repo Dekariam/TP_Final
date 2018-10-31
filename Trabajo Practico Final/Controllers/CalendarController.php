@@ -11,17 +11,17 @@ class CalendarController{
 	}
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
-	public function delete($id){ // elimina de la base de datos.
+	public function deleteCalendar($id){ // elimina de la base de datos.
 		// se llama al eliminar de dao para que lo elimine de la base de datos.
 	}
-	public function add($calendar){ // agregar a la base de datos.
+	public function addCalendar($calendar){ // agregar a la base de datos.
 		// se llama al agregar de dao para que lo ingrese en la base de datos.
 	}
 	
-	public function modify($idCalendar){
+	public function modifyCalendar($idCalendar){
 		// se llama a la funcion de dao que modifica por su ID.
 	}
-	public function return($idCalendar){ // buscar por ID.
+	public function returnCalendar($idCalendar){ // buscar por ID.
 		$calendarList = //de la base de datos (vienen de DAO).
 		//se busca ese objeto por el nombre.
 		$calendar = // si lo encuentra devuelve el objeto entero sino null.
