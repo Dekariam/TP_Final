@@ -16,7 +16,7 @@ class CategoryController{
 		$this->category->add($newCategory);
 	}
 
-	public function deleteCategory($id){ // elimina de la base de datos.
+	public function deleteCategory($idCategory){ // elimina de la base de datos.
 		// se llama al eliminar de dao para que lo elimine de la base de datos.
 	}
 	
