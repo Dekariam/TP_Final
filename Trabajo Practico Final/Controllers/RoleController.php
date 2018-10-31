@@ -1,5 +1,7 @@
 <?php namespace Controllers;
 
+use Daos\RoleDaoList as RoleDao;
+
 class RoleController{
 	
 	private $role;
@@ -8,6 +10,11 @@ class RoleController{
 		// Tenemos que hacer la base de datos para levantar la instancia, y que hereden de singleton para poder usar el
 		// getInstance
 		//$this->role=RoleDao::getInstance();
+	}
+	
+	public function index(){ // Metodo que se llama por defecto cuando no viene en la url, y llama a la vista necesaria (puede
+				// inicializar algunos datos tambien)
+		
 	}
 
 	// ver si hay que enviar todos los datos por parametro o el objeto entero
