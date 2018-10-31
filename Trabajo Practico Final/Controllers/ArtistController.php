@@ -1,5 +1,7 @@
 <?php namespace Controllers;
 
+use Daos\ArtistDaoList as ArtistDao;
+
 class ArtistController{
 
 	private $artist;
@@ -7,6 +9,11 @@ class ArtistController{
 		// Tenemos que hacer la base de datos para levantar la instancia, y que hereden de singleton para poder usar el
 		// getInstance
 		//$this->artist=ArtistDao::getInstance();
+	}
+	
+	public function index(){ // Metodo que se llama por defecto cuando no viene en la url, y llama a la vista necesaria (puede
+				// inicializar algunos datos tambien)
+		
 	}
 
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
