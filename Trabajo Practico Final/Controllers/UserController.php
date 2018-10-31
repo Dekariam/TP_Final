@@ -1,11 +1,18 @@
 <?php namespace Controllers;
 
+use Daos\UserDaoList as UserDao;
+
 class UserController{
 
 	private $userList;
 
 	public function__construct(){
 		$this->userList= // levantar la lista de usuarios de la base de datos
+	}
+	
+	public function index(){ // Metodo que se llama por defecto cuando no viene en la url, y llama a la vista necesaria (puede
+				// inicializar algunos datos tambien)
+		
 	}
 
 	// ver si hay que enviar todos los datos por parametro o el objeto entero
