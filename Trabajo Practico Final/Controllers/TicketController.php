@@ -1,5 +1,7 @@
 <?php namespace Controllers;
 
+use Daos\TicketDaoList as TicketDao;
+
 class TicketController{
 	
 	private $ticket
@@ -9,6 +11,12 @@ class TicketController{
 		// getInstance
 		//$this->ticket=TicketDao::getInstance();
 	}
+	
+	public function index(){ // Metodo que se llama por defecto cuando no viene en la url, y llama a la vista necesaria (puede
+				// inicializar algunos datos tambien)
+		
+	}
+	
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
 	public function deleteTicket($idTicket){ // elimina de la base de datos.
