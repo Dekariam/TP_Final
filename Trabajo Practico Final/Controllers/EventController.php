@@ -1,5 +1,6 @@
 <?php namespace Controllers;
 //llamar a todos los use, e implementar interfaz probablemente
+use Daos\EventDaoList as EventDao;
 
 class EventController{
 	
@@ -10,6 +11,12 @@ class EventController{
 		// getInstance
 		//$this->event=EventDao::getInstance();
 	}
+	
+	public function index(){ // Metodo que se llama por defecto cuando no viene en la url, y llama a la vista necesaria (puede
+				// inicializar algunos datos tambien)
+		
+	}
+	
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
 	public function deleteEvent($idEvent){ // elimina de la base de datos.
