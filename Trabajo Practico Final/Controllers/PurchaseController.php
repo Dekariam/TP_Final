@@ -1,5 +1,7 @@
 <?php namespace Controllers;
 
+use Daos\PurchaseDaoList as PurchaseDao;
+
 class PurchaseController{
 	
 	private $purchase
@@ -9,6 +11,12 @@ class PurchaseController{
 		// getInstance
 		//$this->purchase=PurchaseDao::getInstance();
 	}
+	
+	public function index(){ // Metodo que se llama por defecto cuando no viene en la url, y llama a la vista necesaria (puede
+				// inicializar algunos datos tambien)
+		
+	}
+	
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
 	public function deletePurchase($idPurchase){ // elimina de la base de datos.
