@@ -1,8 +1,9 @@
 <?php namespace Daos;
 
 use Interfaces\CollectionDaos as CollectionDaos;
+use Config\Singleton as Singleton;
 
-class ArtistDaoList implements CollectionDaos{
+class ArtistDaoList extends Singleton implements CollectionDaos{
 	
 	public function return (){ 
 
