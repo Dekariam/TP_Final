@@ -1,5 +1,5 @@
 <?php namespace Controllers;
-
+//llamar a todos los use, e implementar interfaz probablemente
 class CalendarController{
 	
 	private $calendar
