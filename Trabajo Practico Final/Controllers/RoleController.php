@@ -10,6 +10,7 @@ class RoleController{
 		//$this->role=RoleDao::getInstance();
 	}
 
+	// ver si hay que enviar todos los datos por parametro o el objeto entero
 	public function addRole($idRole,$name){
 		$newRole = new Role($idRole,$name);
 		$this->role->add($newRole);
