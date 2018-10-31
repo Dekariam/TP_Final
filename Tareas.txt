@@ -4,7 +4,7 @@ https://github.com/Alekano/BeerGhost
 en la url no hay ningun metodo, todas las controladoras tienen que tener un metodo index.
 
 - Hacer los daos completos // uno por lista en session y otro el de la base de datos que llame a la 
-misma interfaz , para simplemente cambiar el include/use en la controladora.
+misma interfaz , para simplemente cambiar el include/use en las controladoras.
 
 - La base de datos la tenemos que hacer nosotros // aparte
 
