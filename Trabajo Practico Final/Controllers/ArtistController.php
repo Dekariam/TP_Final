@@ -11,7 +11,7 @@ class ArtistController{
 
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
-	public function deleteArtist($id){ // elimina un artista a la base de datos.
+	public function deleteArtist($idArtist){ // elimina un artista a la base de datos.
 		// se llama al eliminar artista de dao para que lo elimine de la base de datos.
 	}
 	public function addArtist($artist){ // agregar un artista a la base de datos.
