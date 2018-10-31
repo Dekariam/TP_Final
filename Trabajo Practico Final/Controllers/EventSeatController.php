@@ -1,5 +1,7 @@
 <?php namespace Controllers;
 
+use Daos\EventSeatDaoList as EventSeatDao;
+
 class EventSeatController{
 	
 	private $eventSeat
@@ -9,6 +11,12 @@ class EventSeatController{
 		// getInstance
 		//$this->eventSeat=EventSeatDao::getInstance();
 	}
+	
+	public function index(){ // Metodo que se llama por defecto cuando no viene en la url, y llama a la vista necesaria (puede
+				// inicializar algunos datos tambien)
+		
+	}
+	
 	// en caso de llamar a la interfaz usar esos metodos MODIFICAR.
 	
 	public function deleteEventSeat($idEventSeat){ // elimina de la base de datos.
